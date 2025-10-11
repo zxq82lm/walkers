@@ -9,6 +9,7 @@ walkers = { path = "../walkers" }
 eframe.workspace = true
 egui.workspace = true
 egui_extras.workspace = true
+rand = "0.8"
 
 # This is needed until https://github.com/emilk/egui/pull/7344 is released.
 wgpu = { version = "25", default-features = true }
